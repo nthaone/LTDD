@@ -13,14 +13,25 @@
         android:theme="@style/Theme.LTUDDD"
         tools:targetApi="31">
         <activity
-            android:name=".tuan1.Tuan1MainActivity"
+            android:name=".tuan2.Tuan22MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".tuan2.Tuan21MainActivityResult"
+            android:exported="false"></activity>
+        <activity
+            android:name=".tuan2.Tuan21MainActivity"
+            android:exported="true">
 
+        </activity>
+        <activity
+            android:name=".tuan1.Tuan1MainActivity"
+            android:exported="true"></activity>
     </application>
 
 </manifest>
